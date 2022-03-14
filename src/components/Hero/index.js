@@ -31,7 +31,7 @@ function Hero(props) {
               <div className="mb-3 logo">
                 <img src={props.logo} alt={props.appName} />
               </div>
-              <div className="">
+              <div className="title-description">
                 <div className="mb-2 deskripsi">
                   <h5>{props.deskripsi}</h5>
                 </div>
@@ -42,7 +42,17 @@ function Hero(props) {
                 </div>
               </div>
               <div className="slogan">
-                <p>{props.slogan}</p>
+                <p>{props.slogan} </p>
+                <span>
+                  Silahkan kunjungi
+                  <a
+                    href="https://ppdb.madrasahsumbar.net"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    ppdb.madrasahsumbar.net
+                  </a>
+                </span>
               </div>
             </div>
           </div>
